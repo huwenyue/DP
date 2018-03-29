@@ -4,7 +4,7 @@
 using namespace std;
 const int maxn = 100;  //物品最大件数
 const int maxv = 1000;  //V的上限
-int w[maxn],c[maxn],dp[maxn];   //每件物品的重量，价值，前i件物品恰好装入容量为v的背包所能获得的最大价值
+int w[maxn],c[maxn],dp[maxv];   //每件物品的重量，价值，前i件物品恰好装入容量为v的背包所能获得的最大价值
 int main(){
     int n,V;
     scanf("%d%d",&n,&V);   //输入n件物品，背包容量为V
